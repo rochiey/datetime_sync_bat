@@ -1,4 +1,6 @@
 @echo off
+TIMEOUT /T 10 /NOBREAK
+
 setlocal enabledelayedexpansion
 
 set retry_count=5
